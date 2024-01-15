@@ -2,15 +2,15 @@
   "name": "react-essentials-deep-dive-adv",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://zw49.github.io/tic-tac-toe",
   "type": "module",
-  "homepage": "https://{username}.github.io/{repo-name}",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "deploy" : "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
