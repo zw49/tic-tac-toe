@@ -4,6 +4,7 @@ import { useState } from "react";
 import Log from "./components/Log";
 import { WINNING_COMBINATIONS } from "./components/winning-combinations";
 import GameOver from "./components/GameOver";
+//comment
 
 const PLAYERS = {
   X: "Player 1",
